@@ -1,5 +1,5 @@
 {
-    "name": "melkco/woo-bundle",
+    "name": "eoasolution/woocomerce-bundle",
     "type": "library",
     "require": {
         "php": ">=7.0",
@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Melkco\\WooBundle\\": ""
+            "Eoasolution\\WooBundle\\": ""
         },
         "exclude-from-classmap": [
             "Tests/"

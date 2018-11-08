@@ -1,6 +1,6 @@
 <?php
 
-namespace Melkco\WooBundle\Service;
+namespace Eoasolution\WooBundle\Service;
 
 use Automattic\WooCommerce\Client;
 
