@@ -1,0 +1,31 @@
+{
+    "name": "melkco/woo-bundle",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "automattic/woocommerce": "^2.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/http-kernel": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nipe Setiawan Harefa",
+            "email": "nipeharefa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Melkco\\WooBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "Tests/"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
